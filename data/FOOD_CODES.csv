@@ -1,0 +1,291 @@
+FOOD_CODE,DESC
+1064,Drinking chocolate powder
+11017,"Oatmeal, raw"
+11018,"Oatmeal/porridge oats, quick cook, raw"
+11034,Wheatgerm
+11036,"Brown rice, boiled"
+11043,"White rice, easy cook, boiled"
+11062,"Spaghetti, white, boiled"
+11064,"Spaghetti, wholemeal, boiled"
+11070,"Brown bread, average"
+11099,"White bread, average"
+11113,"Wholemeal bread, average"
+11126,All-Bran
+11127,Bran Buds
+11128,Bran Flakes
+11129,Coco Pops
+11130,Corn Flakes
+11131,Crunchy Nut Corn Flakes
+11133,Frosties
+11134,Fruit 'n Fibre
+11135,Grapenuts
+11136,Honey Smacks
+11137,"Muesli, Swiss style"
+11140,Nutri-Grain
+11143,"Porridge, made with water"
+11144,Puffed Wheat
+11145,"Ready Brek, dry/unprepared"
+11146,Rice Krispies
+11147,Ricicles
+11148,Shredded Wheat
+11149,Shreddies
+11150,Special K
+11151,Start
+11152,Sugar Puffs
+11153,Sultana Bran
+11154,Weetabix
+11155,Weetaflake
+11157,Weetos
+11167,Cream crackers
+11168,"Crispbread, rye"
+11169,"Digestive biscuits, chocolate"
+11183,Semi-sweet biscuits
+11200,"Fruit cake, plain, retail"
+11242,"Doughnuts, jam"
+11310,"Fruit pie, individual"
+11349,"Pizza, homemade"
+11350,"Pizza, frozen"
+12001,"Skimmed milk, average"
+12008,"Semi-skimmed milk, average"
+12012,"Whole milk, average"
+12018,"Channel Island milk, whole, pasteurised"
+12024,"Calcium-fortified milk, Calcia"
+12027,Coffeemate
+12033,"Evaporated milk, whole"
+12037,"Goats milk, pasteurised"
+12041,"Sheeps milk, raw"
+12042,"Soya milk, plain"
+12097,Horlicks powder
+12108,Ovaltine powder
+12113,"Cream, fresh, single"
+12116,"Cream, fresh, double"
+12130,Tip Top
+12131,"Cheese, Brie"
+12134,"Cheese, Cheddar, average"
+12147,"Cottage cheese, plain"
+12154,"Cheese, Edam"
+12160,"Fromage frais, very low fat"
+12185,"Whole milk yogurt, fruit"
+12188,"Low fat yogurt, plain"
+12190,"Low fat yogurt, fruit"
+12194,"Greek yogurt, cows"
+12200,Choc ice
+12204,"Ice cream, dairy, vanilla"
+12206,"Ice cream, non-dairy, vanilla"
+12220,Creme caramel
+12247,"Mousse, frozen"
+12248,"Rice pudding, canned"
+12250,"Trifle, frozen"
+12259,Low-fat spread
+12283,"Quiche, cheese and egg"
+12285,"Quiche, Lorraine"
+12801,"Eggs, chicken, whole, raw"
+13013,"Old potatoes, boiled in salted water"
+13022,"Chips, retail, fried in vegetable oil"
+13043,"Baked beans, canned in tomato sauce"
+13045,"Baked beans, canned in tomato sauce, reduced sugar"
+13046,"Baked beans, canned in tomato sauce, reduced sugar, reduced"
+13052,"Beansprouts, mung, raw"
+13065,"Broad beans, boiled in salted water"
+13082,"Green beans/French beans, boiled in salted water"
+13092,"Lentils, red, split, dried, boiled in unsalted water"
+13113,"Runner beans, boiled in salted water"
+13119,"Tofu, soya bean, steamed"
+13133,"Peas, frozen, boiled in salted water"
+13135,"Peas, canned, re-heated, drained"
+13142,"Split peas, dried, boiled in unsalted water"
+13166,"Beetroot, pickled, drained"
+13171,"Broccoli, green, boiled in salted water"
+13178,"Brussels sprouts, boiled in salted water"
+13193,"Cabbage, Savoy, boiled in salted water"
+13195,"Cabbage, summer, boiled in salted water"
+13197,"Cabbage, white, boiled in salted water"
+13201,"Carrots, old, boiled in salted water"
+13204,"Carrots, young, boiled in salted water"
+13216,"Cauliflower, boiled in salted water"
+13221,"Celery, raw"
+13231,"Courgette, boiled in unsalted water"
+13233,"Cucumber, raw"
+13244,"Garlic, raw"
+13264,"Leeks, boiled in salted water"
+13266,"Lettuce, average, raw"
+13275,"Marrow, boiled in salted water"
+13285,"Mushrooms, common, boiled in salted water"
+13304,"Onions, raw"
+13313,"Parsnip, boiled in salted water"
+13318,"Peppers, capsicum, green, raw"
+13320,"Peppers, capsicum, red, raw"
+13344,"Spinach, boiled in salted water"
+13349,"Spring greens, boiled in salted water"
+13360,"Swede, boiled in salted water"
+13369,"Sweetcorn, kernels, boiled in salted water"
+13384,"Tomatoes, raw"
+13396,"Watercress, raw"
+14013,"Apples, eating, average, raw, flesh and skin weighed with core"
+14025,"Apricots, raw"
+14031,"Apricots, dried"
+14037,"Avocado, average"
+14045,Bananas
+14096,"Fruit cocktail, canned in juice"
+14097,"Fruit cocktail, canned in syrup"
+14105,"Grapefruit, raw"
+14109,"Grapes, average"
+14124,"Kiwi fruit, weighed with skin"
+14153,"Melon, average"
+14176,"Oranges, weighed with peel and pips"
+14183,"Peaches, raw"
+14191,"Pears, average, raw, weighed with core"
+14193,"Pears, average, raw, peeled, weighed with skin and core"
+14213,"Plums, average, raw"
+14231,"Prunes, dry, no stones"
+14242,Raisins
+14244,"Raspberries, raw"
+14260,"Strawberries, raw"
+14271,"Apple juice, unsweetened"
+14283,"Orange juice, unsweetened"
+14821,Hazelnuts
+14829,"Peanut butter, smooth"
+14834,"Peanuts, roasted and salted"
+15077,"Coleslaw, with mayonnaise, retail"
+15078,"Coleslaw, with reduced calorie dressing, retail"
+15079,"Coleslaw, with vinaigrette, retail"
+15296,"Salad, potato, with mayonnaise"
+15297,"Salad, potato, with mayonnaise, retail"
+15298,"Salad, potato, with reduced calorie dressing, retail"
+15314,"Soya mince, granules"
+15330,"Vegeburger, retail, fried in vegetable oil"
+16013,"Cod, baked, flesh only"
+16023,"Cod, in batter, fried in retail blend oil"
+16176,"Herring, grilled, flesh only"
+16188,"Kipper, grilled, flesh only"
+16192,"Mackerel, fried in blended oil, flesh only"
+16203,"Salmon, grilled, flesh only"
+16216,"Sardines, canned in oil, drained"
+16229,"Tuna, canned in brine, drained"
+16232,"Crab, boiled, light and dark meat"
+16239,"Prawns, boiled (no shells)"
+16256,"Mussels, boiled (no shells)"
+16281,"Fish cakes, grilled"
+16289,"Fish fingers, cod, fried in blended oil"
+16307,Taramasalata
+17004,Compound cooking fat
+17005,"Compound cooking fat, polyunsaturated"
+17007,"Ghee, butter"
+17008,"Ghee, palm"
+17009,"Ghee, vegetable"
+17010,Lard
+17013,Butter
+17014,"Butter, spreadable"
+17015,Blended spread (70-80% fat)
+17017,Dairy spread (40% fat)
+17018,"Margarine, hard, animal and vegetable fats"
+17019,"Margarine, hard, vegetable fats only"
+17020,"Margarine, soft, not polyunsaturated"
+17021,"Margarine, soft, polyunsaturated"
+17023,"Fat spread (70% fat), polyunsaturated"
+17024,"Fat spread (60% fat), polyunsaturated"
+17025,"Fat spread (60% fat), with olive oil"
+17026,"Fat spread (40% fat), not polyunsaturated"
+17027,"Fat spread (35-40% fat), polyunsaturated"
+17028,"Fat spread (20-25% fat), not polyunsaturated"
+17031,Coconut oil
+17033,Corn oil
+17034,Cottonseed oil
+17036,Grapeseed oil
+17037,Hazelnut oil
+17038,Olive oil
+17039,Palm oil
+17040,Peanut oil
+17041,Rapeseed oil
+17042,Safflower oil
+17043,Sesame oil
+17044,Soya oil
+17045,Sunflower oil
+17046,"Vegetable oil, blended, average"
+17047,Walnut oil
+17063,"Sugar, white"
+17073,"Jam, fruit with edible seeds"
+17088,"Chocolate, fancy and filled"
+17094,Mars bar
+17100,Twix
+17101,Boiled sweets
+17117,Peppermints
+17120,"Toffees, mixed"
+17133,Potato crisps
+17152,"Coffee, infusion, average"
+17165,"Tea, black, infusion, average"
+17175,Cola
+17179,Lemonade
+17189,"Fruit drink/squash, concentrated"
+17192,"Fruit drink, low calorie, concentrated, made up"
+17211,Lager
+17222,"Cider, dry"
+17229,"Rose wine, medium"
+17236,"Sherry, medium"
+17240,"Vermouth, sweet"
+17247,"Spirits, 40% volume"
+17250,"Chicken soup, cream of, canned"
+17272,"Oxtail soup, canned"
+17284,"Vegetable soup, canned"
+17302,"Dressing, French"
+17316,Mayonnaise
+17318,"Mayonnaise, reduced calorie"
+17326,Salad cream
+17327,"Salad cream, reduced calorie"
+17338,Tomato ketchup
+17341,"Chutney, apple, homemade"
+17352,"Pickle, sweet"
+17377,"Water, distilled"
+17380,Yeast extract
+18005,"Beef, average, fat, cooked"
+18049,"Beef, rump steak, grilled, lean"
+18100,"Lamb, average, trimmed fat, cooked"
+18141,"Lamb, loin chops, grilled, lean"
+18205,"Pork, fat, cooked"
+18251,"Pork, loin chops, grilled, lean"
+18331,"Chicken, meat, average, roasted"
+18361,"Turkey, meat, average, roasted"
+18414,"Liver, lamb, fried"
+18418,"Liver, pig, stewed"
+19008,"Bacon rashers, back, fat trimmed, grilled"
+19024,"Ham, canned"
+19029,"Beefburgers, chilled/frozen, fried"
+19056,"Cornish pastie, commercial"
+19063,"Pork pie, individual"
+19067,"Sausage rolls, flaky pastry, homemade"
+19068,"Sausage rolls, short pastry, homemade"
+19069,"Steak and kidney/Beef pie, individual, chilled/frozen, baked"
+19077,"Beef sausages, chilled, grilled"
+19080,"Pork sausages, chilled, grilled"
+19106,Liver sausage
+19128,"Corned beef, canned"
+19135,"Luncheon meat, canned"
+19238,"Lasagne, chilled/frozen, reheated"
+19247,"Moussaka, recipe"
+313,"Margarine, soft, vegetable fat only"
+339,"Bacon, fat only, cooked, average"
+68,Common Sense Oat Bran Flakes
+75,Oat and Wheat Bran
+79,Raisin Splitz
+a1361 ,Crunchy Oat Cereal
+a1362 ,Cereal non specific
+a2001 ,Evaporated milk whole diluted
+a2002 ,Milk non specific
+a2003 ,Coffeemate-reconstituted
+a7001 ,Carbonated beverages-low calorie
+a7021 ,Solid vegetable oil
+a7022 ,Crisp and Dry - solid fat
+a7026 ,Oil and fat n.s.
+x0535 ,"Steak and kidney pie, pastry top only, fat removed"
+x1120 ,"Croissants, fat removed"
+x1171 ,"Flapjacks, fat removed"
+x1201 ,"Fruitcake, rich, fat removed"
+x1211 ,"Sponge cake, fat removed"
+x1266 ,"Scones, plain, fat removed"
+x1294 ,"Crumble, fruit, fat removed"
+x1309 ,"Fruit pie, pastry top and bottom, fat removed"
+x1325 ,"Sponge pudding, fat removed"
+x2268 ,"Cheese sauce with whole milk, fat removed"
+x2296 ,"White sauce,with whole milk, fat removed"
+x3016 ,"Potatoes, roast, fat removed"
+x3025 ,"Chips, straight cut, fat removed"
