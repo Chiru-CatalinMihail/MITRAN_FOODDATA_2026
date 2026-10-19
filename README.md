@@ -58,43 +58,33 @@ Retinol, Lycopene (total / cis / trans), β-Carotene (total / cis / trans), α-C
 
 Run the notebooks **in order**. Each one reads the files the previous one wrote to `data/`.
 
-<table>
-  <tr>
-    <th width="3%">#</th>
-    <th width="20%">Notebook</th>
-    <th width="47%">What it does</th>
-    <th width="15%">Inputs</th>
-    <th width="15%">Outputs</th>
-  </tr>
-  <tr>
-    <td>0</td>
-    <td><code>0_exploratory_database.ipynb</code></td>
-    <td>Looks at each table of the USDA FoodData Central Survey release.</td>
-    <td><code>data/FoodData_Central_survey_food_csv_2024-10-31/*.csv</code></td>
-    <td><code>PROCESSED_fdc_id_description_pairing.csv</code></td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td><code>1_process_usda_fdc_db_into_multihot_fdc_nutrients.ipynb</code></td>
-    <td>Cleans <code>food_nutrient</code>, <code>nutrient</code> and <code>food</code>, then merges them into one table of nutrients per food. It checks that every nutrient of interest is present, filters to those nutrients, and pivots the result to one row per <code>fdc_id</code> with one column per nutrient (unit in the column name). It ends with checks against hand-computed values (watermelon, taramasalata).</td>
-    <td>USDA CSVs</td>
-    <td><code>PROCESSED_nutrients_per_aliment.csv</code><br><code>PROCESSED_nutrient_name_uniques.txt</code><br><code>PROCESSED_filtered_nutrients_multihot.csv</code></td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td><code>2_obtain_nutrient_values_for_iasi_feta.ipynb</code></td>
-    <td>Loads the cohort's FFQ answers and joins them with the FETA food codes. It adds the expert FETA → USDA matching and gives every food line its nutrient values, averaging when one food code maps to several USDA entries. Food codes missing from the original FETA table (<code>12012</code>, <code>17046</code>, <code>11130</code>, <code>17045</code>, <code>a1362</code>, <code>a7021</code>, <code>12008</code>, <code>17038</code>, <code>12042</code>) were added from the <a href="https://www.mrc-epid.cam.ac.uk/wp-content/uploads/2023/03/food_code_lookup.pdf">MRC Epidemiology Food Code Lookup</a>.</td>
-    <td><code>FOOD_CODES.csv</code><br><code>MEAL_ID.csv</code><br><code>popa2023andreea2013.xlsx</code><br><code>manually_labelled_fdc_to_feta.xlsx</code><br><code>PROCESSED_filtered_nutrients_multihot.csv</code></td>
-    <td><code>PROCESSED_needs_fdc_id.csv</code><br><code>PROCESSED_iasi_with_nutrients_raw.csv</code></td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td><code>3_iasi_results.ipynb</code></td>
-    <td>Scales the per-100 g nutrient values by <code>FOOD_PORTION</code> (g) and adds them up per participant (<code>ID</code>).</td>
-    <td><code>PROCESSED_iasi_with_nutrients_raw.csv</code></td>
-    <td><code>PROCESSED_iasi_with_nutrients_scaled_with_food_portion.csv</code> (per food line)<br><code>PROCESSED_iasi_per_patient_nutrient_totals.csv</code> (per participant)</td>
-  </tr>
-</table>
+### 0 · `0_exploratory_database.ipynb`
+
+Looks at each table of the USDA FoodData Central Survey release.
+
+- **Inputs:** `data/FoodData_Central_survey_food_csv_2024-10-31/*.csv`
+- **Outputs:** `PROCESSED_fdc_id_description_pairing.csv`
+
+### 1 · `1_process_usda_fdc_db_into_multihot_fdc_nutrients.ipynb`
+
+Cleans `food_nutrient`, `nutrient` and `food`, then merges them into one table of nutrients per food. It checks that every nutrient of interest is present, filters to those nutrients, and pivots the result to one row per `fdc_id` with one column per nutrient (unit in the column name). It ends with checks against hand-computed values (watermelon, taramasalata).
+
+- **Inputs:** the USDA CSVs
+- **Outputs:** `PROCESSED_nutrients_per_aliment.csv`, `PROCESSED_nutrient_name_uniques.txt`, `PROCESSED_filtered_nutrients_multihot.csv`
+
+### 2 · `2_obtain_nutrient_values_for_iasi_feta.ipynb`
+
+Loads the cohort's FFQ answers and joins them with the FETA food codes. It adds the expert FETA → USDA matching and gives every food line its nutrient values, averaging when one food code maps to several USDA entries. Food codes missing from the original FETA table (`12012`, `17046`, `11130`, `17045`, `a1362`, `a7021`, `12008`, `17038`, `12042`) were added from the [MRC Epidemiology Food Code Lookup](https://www.mrc-epid.cam.ac.uk/wp-content/uploads/2023/03/food_code_lookup.pdf).
+
+- **Inputs:** `FOOD_CODES.csv`, `MEAL_ID.csv`, `popa2023andreea2013.xlsx`, `manually_labelled_fdc_to_feta.xlsx`, `PROCESSED_filtered_nutrients_multihot.csv`
+- **Outputs:** `PROCESSED_needs_fdc_id.csv`, `PROCESSED_iasi_with_nutrients_raw.csv`
+
+### 3 · `3_iasi_results.ipynb`
+
+Scales the per-100 g nutrient values by `FOOD_PORTION` (g) and adds them up per participant (`ID`).
+
+- **Inputs:** `PROCESSED_iasi_with_nutrients_raw.csv`
+- **Outputs:** `PROCESSED_iasi_with_nutrients_scaled_with_food_portion.csv` (per food line), `PROCESSED_iasi_per_patient_nutrient_totals.csv` (per participant)
 
 The final dataset used for the analyses in the paper is
 `data/PROCESSED_iasi_with_nutrients_scaled_with_food_portion.csv`. Its per-participant aggregate is
